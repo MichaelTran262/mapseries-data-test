@@ -443,6 +443,20 @@ mapseries.config = {
           return stringValue;
         }
       }
+    },
+    {
+      title: "Evropa; Třetí vojenské mapování, speciální mapy 1:75 000; test",
+      layer: "evropa-treti-vojenske-mapovani-specialni-mapy-175-000-test",
+      template: "evropa-treti-vojenske-mapovani-specialni-mapy-175-000-test.txt",
+      formatFunctions: {
+        addDegrees: function (stringValue, sheet) {
+          stringValue += '';
+          if(stringValue.length==4) {
+            stringValue = stringValue.substr(0,2)+'°'+stringValue.substr(2)+'°';
+          }
+          return stringValue;
+        }
+      }
     }
   ]
 }
