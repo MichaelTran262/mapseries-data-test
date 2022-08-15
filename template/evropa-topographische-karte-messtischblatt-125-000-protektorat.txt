@@ -13,7 +13,15 @@ LDR   L -----nem-a22------i-4500
     "values": ["s", "q"]}{
     "id": "year",
     "width": 10,
-    "title": "Rok vydání"}----{
+    "title": "Rok vydání"}
+    {
+    "id":"year2",
+    "base" "typ data",
+    "width": 6,
+    "title": "Rok vydání 2",
+    "valuesByBaseIndex": ["----", "1934"]
+    }
+    {
     "base": "corporation",
     "width": 5,
     "title": "Kód místa vydání",
