@@ -142,6 +142,8 @@ LDR   L -----nem-a22------i-4500
     ]
   }$$c{
     "base":"year"
+  }{
+    "base":"year2"
   }
 264 3 L $$a{
     "base":"corporation",
@@ -154,6 +156,8 @@ LDR   L -----nem-a22------i-4500
     ]
   }$$c{
     "base":"year"
+  }{
+    "base":"year2"
   }
 300   L $$a1 mapa :$$b{
     "base":"note",
